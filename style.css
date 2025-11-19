@@ -1,8 +1,6 @@
 body {
     background-color: rgb(102, 238, 17);
-    perspective: 1000px; 
 }
-
 
 h1 {
     text-align: center;
@@ -11,7 +9,6 @@ h1 {
     animation: spin 6s linear infinite;
     transform-style: preserve-3d;
 }
-
 
 p {
     width: 500px;
@@ -25,10 +22,8 @@ p {
     transform-style: preserve-3d;
 }
 
-
 @keyframes spin {
     0%   { transform: rotateY(0deg); }
     50%  { transform: rotateY(180deg); }
     100% { transform: rotateY(360deg); }
 }
-
